@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background: #d9d9d9;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    border: 1px solid transparent;
+    background: #33658a;
+    color: #f8f9fa;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #d9d9d9;
+    color: #001d3d;
+}
+
+form {
+    width: 460px;
+    margin-top: 100px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    background: #284b63;
+    color: #f8f9fa;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2.1rem;
+}
+
+.password-display {
+    display: flex;
+}
+
+
+.password-display input {
+    letter-spacing: 5px;
+    padding: 10px;
+    text-align: center;
+    flex: 1;
+    font-size: 2rem;
+    border: transparent;
+    background: #001d3d;
+    color: #f8f9fa;
+    font-family: monospace;
+    outline: none;
+}
+
+.password-display button {
+    width: 45px;
+    font-size: 2.1rem;
+}
+
+.options {
+    padding: 15px 0;
+}
+
+ .options li {
+     display: flex;
+     justify-content: space-between;
+     align-items: baseline;
+     margin: 15px 0;
+ }
+
+ .options input[type=number] {
+    padding: 3px 0 3px 5px;
+ }
+
+ form > button {
+    padding: 15px 0;
+    font-size: 1.8rem;
+ }
